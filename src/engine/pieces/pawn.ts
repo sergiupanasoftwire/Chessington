@@ -9,7 +9,7 @@ export default class Pawn extends Piece {
     }
 
     public getAvailableMoves(board: Board) {
-        const availableMoves = new Array<Square>()
+        const availableMoves = new Array<Square>();
         const currentPosition = board.findPiece(this);
         let squareInFront: Square;
 
